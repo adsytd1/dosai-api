@@ -1,6 +1,6 @@
 # DOS AI API and MCP server
 
-Public interfaces of [DOS AI](https://dosai.pro), a platform for AI assistants (chatbots) in WhatsApp and Telegram with a built-in CRM.
+Public interfaces of [DOS AI (dosai.pro)](https://dosai.pro), a platform for AI assistants (chatbots) in WhatsApp, Instagram and Telegram with a built-in CRM.
 
 This repository holds the machine-readable contract and runnable examples. The platform itself is hosted, so there is nothing to install: you get an API key in the cabinet and call the endpoints below.
 
@@ -9,10 +9,11 @@ This repository holds the machine-readable contract and runnable examples. The p
 - **Agent primer:** https://dosai.pro/llms.txt
 - **Full public corpus (guide + course + articles):** https://dosai.pro/llms-full.txt
 - **Human docs:** https://dosai.pro/docs/guide/08-developers/80-public-api
+- **Short answers about the product (pricing, channels, limits), in Russian:** https://dosai.pro/voprosy
 
 ## What the platform does
 
-A project in DOS AI is one bot: its instructions, its knowledge base, its channel (WhatsApp via QR or Telegram), its balance and its clients. The bot answers incoming messages in natural language, books time slots from a Google Calendar or Sheet, issues invoices in the chat, files every conversation as a lead, and hands the dialog over to a human when your rules say so.
+A project in DOS AI is one bot: its instructions, its knowledge base, its channels (WhatsApp via QR, Instagram Direct, Telegram), its balance and its clients. The bot answers incoming messages in natural language, books time slots from a Google Calendar or Sheet, issues invoices in the chat, files every conversation as a lead, and hands the dialog over to a human when your rules say so.
 
 The API exposes that same data: projects, conversations, messages, leads, analytics and balance.
 
